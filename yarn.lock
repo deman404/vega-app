@@ -2,10 +2,13 @@
 # yarn lockfile v1
 
 
-"@8man/react-native-media-console@^2.2.4-alpha.10":
-  version "2.2.4-alpha.10"
-  resolved "https://registry.npmjs.org/@8man/react-native-media-console/-/react-native-media-console-2.2.4-alpha.10.tgz"
-  integrity sha512-Dy9Ld0eozEZi50uWpv7+g7J4OgVDwbrwBJSdYY1cR/XYtA69OaJVNB/i/MtoZPuACBB4+J4Z2kHGicofUt4mQQ==
+"@8man/react-native-media-console@^2.2.4-alpha.12":
+  version "2.2.4-alpha.12"
+  resolved "https://registry.npmjs.org/@8man/react-native-media-console/-/react-native-media-console-2.2.4-alpha.12.tgz"
+  integrity sha512-5KeStnBF6ilukDMaIhOjZ4oeISQgwKiS1HXzkqazpbN5QxbZxe92LG/6r4dC8ovtybdPB9AbfvctWnHbl7Rx/Q==
+  dependencies:
+    react-native-gesture-handler "^2.20.2"
+    react-native-system-setting "^1.7.6"
 
 "@aashutoshrathi/word-wrap@^1.2.3":
   version "1.2.6"
@@ -8551,6 +8554,16 @@ react-native-fullscreen-chz@^4.0.13:
   version "4.0.13"
   resolved "https://registry.npmjs.org/react-native-fullscreen-chz/-/react-native-fullscreen-chz-4.0.13.tgz"
   integrity sha512-uMskQa/1qZ7IcuZEhLSrHZPKHe+rN9yMbD8qxaqPwfWDrb06wUdSx2RXnxgG0g6U43c0nAVpArkyNurKRHvhjw==
+
+react-native-gesture-handler@^2.20.2:
+  version "2.20.2"
+  resolved "https://registry.npmjs.org/react-native-gesture-handler/-/react-native-gesture-handler-2.20.2.tgz"
+  integrity sha512-HqzFpFczV4qCnwKlvSAvpzEXisL+Z9fsR08YV5LfJDkzuArMhBu2sOoSPUF/K62PCoAb+ObGlTC83TKHfUd0vg==
+  dependencies:
+    "@egjs/hammerjs" "^2.0.17"
+    hoist-non-react-statics "^3.3.0"
+    invariant "^2.2.4"
+    prop-types "^15.7.2"
 
 react-native-gesture-handler@>=1.10.1, react-native-gesture-handler@~2.16.1:
   version "2.16.2"
